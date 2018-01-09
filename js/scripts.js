@@ -5,10 +5,12 @@ var dinosaurUpperCased = dinosaur.toUpperCase();
 console.log(dinosaurUpperCased);
 
 var text = text.replace("Velociraptor", dinosaurUpperCased);
-
+var halfText = text.length/2;
+var numberRound = Math.round(halfText);
 console.log(text);
-console.log(text.length/2);
-console.log(text.slice(0,73));
+console.log(halfText);
+console.log(numberRound);
+console.log(text.slice(0,numberRound));
 
 
 
